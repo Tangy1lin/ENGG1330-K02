@@ -290,8 +290,9 @@ git commit -m "Complete a specific task"
 
 # 4. Push your branch
 git push -u origin progress/name-task
-
-# 5. Open a Pull Request on GitHub
 ```
+
+Then go to GitHub in your browser and open a Pull Request:
+`base: main` ← `compare: progress/name-task`
 
 **Core principle:** Keep the main branch stable. Each person submits progress on their own branch and uses a Pull Request to bring that progress back to the main line.
